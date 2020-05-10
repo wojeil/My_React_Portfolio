@@ -9,7 +9,7 @@ function Nav() {
             <ul className="nav">
 
                 <li className="nav-item">
-                    <a className="nav-link" href="test.html">Wadih Ojeil</a>
+                    <a className="nav-link" href="/">Wadih Ojeil</a>
                 </li>
 
             </ul>

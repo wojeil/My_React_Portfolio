@@ -23,7 +23,7 @@ function Home() {
                             <a className="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Contact</a>
+                            <a className="nav-link" href="/contact">Contact</a>
                         </li>
 
                     </ul>
@@ -107,25 +107,65 @@ function Home() {
                         {/* <!--col 1 contains 1 card--> */}
                         <div className="col-md-6">
                             <Cards></Cards>
-                            </div>
-                            {/* <!--col 2 contains 1 card--> */}
-                            <div className="col-md-6">
-                                <Cards></Cards>
-                            </div>
                         </div>
-                        {/* <!--row 4 has 2 col--> */}
-                        <div className="row">
-                            {/* <!--col 1 contains 1 card--> */}
+                        {/* <!--col 2 contains 1 card--> */}
+                        <div className="col-md-6">
+                            <Cards></Cards>
                         </div>
                     </div>
-                
+                    {/* <!--row 4 has 2 col--> */}
+                    <div className="row">
+                        {/* <!--col 1 contains 1 card--> */}
+                    </div>
+                </div>
+
+            </section>
+            {/* <!-- end of third page section --> */}
+            <section className="section" id="section-4">
+                <div className="container">
+                    {/* <!--Row 1 has 1 col--> */}
+                    <div className="row">
+                        <div className="col-md-12">
+                            <h1> Portfolio </h1>
+                            <h3>Page 2</h3>
+                            <hr />
+                        </div>
+                    </div>
+                    {/* <!--Row 2 has 2 col--> */}
+                    <div className="row">
+                        {/* <!--col 1 contains 1 card--> */}
+                        <div className="col-md-6">
+                            <Cards></Cards>
+
+                        </div>
+                        {/* <!--col 2 contains 1 card--> */}
+                        <div className="col-md-6">
+                            <Cards></Cards>
+                        </div>
+                    </div>
+                    {/* <!--row 3 has 2 col--> */}
+                    <div class="row">
+                        {/* <!--col 1 contains 1 card--> */}
+                        <div class="col-md-6">
+                            <Cards></Cards>
+                        </div>
+                        {/* <!--col 2 contains 1 card--> */}
+                        <div class="col-md-6">
+                            <Cards></Cards>
+                        </div>
+                    </div>
+                    {/* <!--row 4 has 2 col--> */}
+                    <div class="row">
+
+                    </div>
+                </div>
         </section>
-                {/* <!-- end of third page section --> */}
+                {/* <!-- end of fourth page section --> */}
 
 
                 {/* <!--forth page section--> */}
-      
-        <Footer className="section container-fluid" id="section-5"></Footer>
+
+                <Footer ></Footer>
         </>
 
     );
