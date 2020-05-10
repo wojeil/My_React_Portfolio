@@ -1,11 +1,14 @@
 import React from "react";
 import "./HomeP.css";
-import Cards from "../components/Cards"
-import Footer from "../components/Footer"
+import Cards from "../components/Cards";
+import Footer from "../components/Footer";
+// import "../components/Design";
+// import Design from "../components/Design";
 
 
 function Home() {
     return (
+        // <Design>
         <>
             {/* // <!-- first page section --> */}
 
@@ -167,7 +170,7 @@ function Home() {
 
                 <Footer ></Footer>
         </>
-
+        // </Design>
     );
 
 }
