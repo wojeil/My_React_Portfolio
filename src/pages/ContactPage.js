@@ -1,14 +1,14 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-
+import './ContactP.css';
 
 function ContactPage() {
 
     return (
         <>
-            <Nav>
-            </Nav>
+            <Nav/>
+            
 
             <div className="container" >
                 {/* <!--row 1 has one column--> */}
@@ -43,7 +43,7 @@ function ContactPage() {
                         </div>
                     </div>
                 </div>
-                            <Footer></Footer>
+                            <Footer/>
         </>
     );
 

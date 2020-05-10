@@ -1,7 +1,6 @@
 import React from 'react';
 import ContactPage from "./pages/ContactPage";
 // import Home from "./pages/Home";
-import './ContactP.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
