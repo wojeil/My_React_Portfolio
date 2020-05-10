@@ -1,13 +1,12 @@
 import React from 'react';
-import Container from ""
+import ContactPage from "./pages/ContactPage"
 import './App.css';
+
 
 function App() {
   return (
     <div>
-      <Container>
-
-      </Container>
+      <ContactPage></ContactPage>
      
     </div>
   );
