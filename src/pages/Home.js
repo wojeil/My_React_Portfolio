@@ -125,7 +125,7 @@ function Home() {
 
                 {/* <!--forth page section--> */}
       
-
+        <Footer className="section container-fluid" id="section-5"></Footer>
         </>
 
     );
