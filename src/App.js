@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactPage from "./pages/ContactPage";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
@@ -12,8 +12,8 @@ function App() {
       
     <div>
       <Switch>
-        {/* <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} /> */}
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/contact" component={ContactPage} />
         {/* <Route component={NoMatch} /> */}
       </Switch>
