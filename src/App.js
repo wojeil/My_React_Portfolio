@@ -1,14 +1,27 @@
 import React from 'react';
-import ContactPage from "./pages/ContactPage"
-import './App.css';
+import ContactPage from "./pages/ContactPage";
+// import Home from "./pages/Home";
+import './ContactP.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+
 
 
 function App() {
   return (
+    <Router>
+      
     <div>
-      <ContactPage></ContactPage>
-     
+      <Switch>
+        {/* <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} /> */}
+        <Route exact path="/contact" component={ContactPage} />
+        {/* <Route component={NoMatch} /> */}
+      </Switch>
     </div>
+  </Router>
+
+
   );
 }
 

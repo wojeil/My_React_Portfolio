@@ -1,0 +1,75 @@
+body {
+    background-image: url("./images/photos_2019_12_22_fst_dirty-grunge-surface.jpg");
+    
+} 
+
+
+
+
+footer {
+   
+    border: 2px;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+/* image and all content media for responsive behaviour */
+@media only screen and (max-width:640px) {
+    .container {
+        size: 71%;
+    }
+}
+
+/* margins for contact page footer*/
+
+/* #fullForm {
+    margin-bottom: 10px;
+} */
+
+.navbar {
+    padding-bottom: 0px;
+    padding-top: 15px;
+    margin-bottom: 100px;
+ 
+}
+a:hover {
+    color: hotpink;
+  }
+
+a {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+  }
+/* My name  */
+.name {
+    font-weight: bolder;
+    font-size: 35px;
+    color: hotpink;
+
+  }
+hr {
+    border-radius: 20px;
+    height: 5px;
+    background-color:  rgba(0, 0, 0, 0.521);
+  }
+
+/* My Portfolio Cards */
+.card {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.555);
+    color: blanchedalmond;
+}
+
+.btn:hover{
+    background-color: hotpink;
+}
