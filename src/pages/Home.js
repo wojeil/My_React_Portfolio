@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeP.css";
 import Cards from "../components/Cards";
 import Footer from "../components/Footer";
+// import cards from "../components/cards.json";
 // import "../components/Design";
 // import Design from "../components/Design";
 
