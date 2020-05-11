@@ -138,7 +138,7 @@ function Home() {
                     <div className="row">
                         {/* <!--col 1 contains 1 card--> */}
                         <div className="col-md-6">
-                            <Cards></Cards>
+                            <Cards id={1} name={"My Daily Weather App"} href= {"https://github.com/wojeil/Server-Side-APIs"}></Cards>
 
                         </div>
                         {/* <!--col 2 contains 1 card--> */}
