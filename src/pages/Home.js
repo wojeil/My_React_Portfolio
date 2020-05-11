@@ -95,81 +95,34 @@ function Home() {
                     {/* <!--Row 2 has 2 col--> */}
                     <div className="row">
                         {/* <!--col 1 contains 1 card--> */}
-                        <div className="col-md-6">
-                            <Cards>
+                        <div className="col-md-12">
+                            <div className="card-deck">
+                                
+                                <Cards>
 
-                            </Cards>
-                        </div>
-                        {/* <!--col 2 contains 1 card--> */}
-                        <div className="col-md-6">
-                            <Cards>
-                            </Cards>
+                                </Cards>
+                            </div>
                         </div>
                     </div>
                     {/* <!--row 3 has 2 col--> */}
                     <div className="row">
-                        {/* <!--col 1 contains 1 card--> */}
-                        <div className="col-md-6">
-                            <Cards></Cards>
-                        </div>
-                        {/* <!--col 2 contains 1 card--> */}
-                        <div className="col-md-6">
-                            <Cards></Cards>
-                        </div>
+
+
                     </div>
                     {/* <!--row 4 has 2 col--> */}
                     <div className="row">
-                        {/* <!--col 1 contains 1 card--> */}
+
                     </div>
                 </div>
 
             </section>
-            {/* <!-- end of third page section --> */}
-            <section className="section" id="section-4">
-                <div className="container">
-                    {/* <!--Row 1 has 1 col--> */}
-                    <div className="row">
-                        <div className="col-md-12">
-                            <h1> Portfolio </h1>
-                            <h3>Page 2</h3>
-                            <hr />
-                        </div>
-                    </div>
-                    {/* <!--Row 2 has 2 col--> */}
-                    <div className="row">
-                        {/* <!--col 1 contains 1 card--> */}
-                        <div className="col-md-6">
-                            <Cards id={1} name={"My Daily Weather App"} href= {"https://github.com/wojeil/Server-Side-APIs"}></Cards>
 
-                        </div>
-                        {/* <!--col 2 contains 1 card--> */}
-                        <div className="col-md-6">
-                            <Cards></Cards>
-                        </div>
-                    </div>
-                    {/* <!--row 3 has 2 col--> */}
-                    <div class="row">
-                        {/* <!--col 1 contains 1 card--> */}
-                        <div class="col-md-6">
-                            <Cards></Cards>
-                        </div>
-                        {/* <!--col 2 contains 1 card--> */}
-                        <div class="col-md-6">
-                            <Cards></Cards>
-                        </div>
-                    </div>
-                    {/* <!--row 4 has 2 col--> */}
-                    <div class="row">
-
-                    </div>
-                </div>
-        </section>
-                {/* <!-- end of fourth page section --> */}
+            {/* <!-- end of fourth page section --> */}
 
 
-                {/* <!--forth page section--> */}
+            {/* <!--forth page section--> */}
 
-                <Footer ></Footer>
+            <Footer ></Footer>
         </>
         // </Design>
     );
