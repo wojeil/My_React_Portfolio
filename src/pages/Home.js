@@ -34,14 +34,7 @@ function Home() {
                     {/* <!--col 2 contains Text--> */}
                     <div className="col-sm-9">
                         <div className="card about-card">
-                            <p className="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti natus,
-                            reiciendis porro a
-                            eligendi laborum repellendus et corrupti debitis asperiores iure corporis, voluptas sint
-                            earum
-                            nihil cupiditate minima, quos veniam! Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Dicta, quia architecto expedita repellendus alias voluptates sed voluptatem
-                            perspiciatis! Magnam omnis tenetur eligendi culpa distinctio blanditiis, minima esse
-                    obcaecati iure unde!</p>
+                            <p className="about-text">Full stack developer and a former Deputy Sheriff with experience and passion in front end and back end coding development.  A certificate in full stack web development from the University of Central Florida with a deep knowledge in Java Script, HTML, CSS, MySQL, MongoDb, IndexDb, PWA, Node.js, REACT, Bootstrap and Bulma Framework. Enjoy problem-solving and puzzles. I believe teamwork and collaboration will tend to greater results. In my Boot Camp I have been entrusted to take the lead as a project manager for all my group projects due to my leadership skills from my previous career and my knowledge referencing the material covered. Highly trained to produce results in stressful situations and take necessary action required to complete tasks. Always looking to expand my knowledge in the field. Excited to apply my interpersonal skills and coding skills to maintain and build new technologies. Nothing compares to the satisfaction of watching my web application being applied in Users’ daily life.</p>
                         </div>
                     </div>
 
