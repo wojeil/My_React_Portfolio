@@ -5,15 +5,23 @@ function Nav() {
     return (
 
         <nav className="navbar navbar-light">
-            <span className="navbar-link h1 "><p className="name"></p></span>
-            <ul className="nav">
+        <span className="navbar-brand  h1 ">
+            <p className="name">Wadih Ojeil</p>
+        </span>
+        {/* <!--Nav Items have been linked--> */}
+        <ul className="nav">
+            <li className="nav-item">
+                <a className="nav-link" href="/">About</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/portfolio">Portfolio</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/contact">Contact</a>
+            </li>
 
-                <li className="nav-item">
-                    <a className="nav-link" href="/">Wadih Ojeil</a>
-                </li>
-
-            </ul>
-        </nav>
+        </ul>
+    </nav>
 
 
 

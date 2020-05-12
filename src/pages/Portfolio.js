@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import cards from "../utils/cards.json";
 import Cards from "../components/Cards";
-import "./HomeP.css";
+import "./Portfolio.css";
 
 
 function Portfolio (){
@@ -24,7 +24,7 @@ return(
     <div className="row">
         {/* <!--col 1 contains 1 card--> */}
         <div className="col-md-12">
-            <div className="card-deck">
+            <div className="card-columns">
                 {cards.map(card =>{
                     return(
                         <Cards

@@ -1,10 +1,9 @@
 body {
-    /* background-image: url(""); */
+    background-image: url("https://media.freestocktextures.com/cache/84/4c/844cbca0d99c05a2b710662980d627eb.jpg");
+    background-size: cover;
+
     
 } 
-
-
-
 
 footer {
    
@@ -59,11 +58,6 @@ hr {
     height: 5px;
     background-color:  rgba(0, 0, 0, 0.521);
   }
-
-/* My Portfolio Cards */
-.card {
-    margin-bottom: 20px;
-}
 
 .btn {
     background-color: rgba(0, 0, 0, 0.555);
