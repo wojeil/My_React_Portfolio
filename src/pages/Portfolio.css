@@ -1,8 +1,8 @@
-body {
-    background-image: url("https://media.freestocktextures.com/cache/85/7c/857c8336fafe472a185da8ce89ce3292.jpg");
+
+.portfolioBack {
+    background-image: url("https://media.freestocktextures.com/cache/74/9f/749f3d719605e36930f5cd0855ec21da.jpg");
     background-size: cover;
-  
-} 
+  }
 
 img.card-img-top {
     width: 100%;

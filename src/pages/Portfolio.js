@@ -9,7 +9,7 @@ import "./Portfolio.css";
 function Portfolio (){
 
 return(
-    <>
+    <div className="portfolioBack">
     <Nav/>
     <div className="container">
     {/* <!--Row 1 has 1 col--> */}
@@ -43,7 +43,7 @@ return(
  
 </div>
 <Footer/>
-</>
+</div>
 )
 }
 

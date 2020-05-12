@@ -1,11 +1,9 @@
 
-body {
-  background-image: url("https://media.freestocktextures.com/cache/20/c2/20c220cb65e5bcc8645559b89abf199e.jpg");
+
+.homeBack {
+  background-image: url("https://media.freestocktextures.com/cache/02/5e/025e73bd208783d39147ad72a26b6cdd.jpg");
   background-size: cover;
-
-  
-} 
-
+}
   
 /* image and all content media for responsive behaviour */
   @media only screen and (max-width:640px) {

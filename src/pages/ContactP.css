@@ -1,14 +1,13 @@
-body {
-    background-image: url("https://media.freestocktextures.com/cache/84/4c/844cbca0d99c05a2b710662980d627eb.jpg");
-    background-size: cover;
 
-    
-} 
+.contactBack {
+    background-image: url("https://media.freestocktextures.com/cache/6c/34/6c34f470d0be0be75ee4c832ac7df425.jpg");
+    background-size: cover;
+  }
 
 footer {
    
     border: 2px;
-    margin-top: 200px;
+    margin-top: 325px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 7px;

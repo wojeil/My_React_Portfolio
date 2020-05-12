@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 function Home() {
     return (
         // <Design>
-        <>
+        <div className="homeBack">
             {/* // <!-- first page section --> */}
 
 
@@ -57,7 +57,7 @@ function Home() {
             </div>
             <Footer className="aboutFooter" />
 
-        </>
+        </div>
         // </Design>
     );
 
