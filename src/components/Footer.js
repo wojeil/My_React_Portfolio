@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
 
     return (
-        <footer className="container-fluid section" id="section-5">
+        <footer className="container-fluid">
             <p> @Copyright </p>
         </footer>
 

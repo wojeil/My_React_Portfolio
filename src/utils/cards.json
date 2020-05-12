@@ -2,35 +2,35 @@
     {
         "id": 1,
         "name": "My Daily Weather App",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "image": "../../images/weatherapp.png",
         "href": "https://github.com/wojeil/Server-Side-APIs",
         "ptag": "Above, is a captured image of my weather application aka (My Daily Weather APP). Click on the image to see all the details referencing this application."
     },
     {
         "id": 2,
         "name": "Covid Updates",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "image": "../../images/covid.png",
         "href": "https://github.com/wojeil/COVID-Updates",
         "ptag": "Above, is a captured image of my COVID-Updates application. Click on the image to see all the details referencing this application."
     },
     {
         "id": 3,
         "name": "Work Day Scheduler",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "image": "../../images/workday.png",
         "href": "https://github.com/wojeil/Third_Party_APIs",
         "ptag": "Above, is a captured image of my Work Day Scheduler application. Click on the image to see all the details referencing this application."
     },
     {
         "id": 4,
         "name": "Employee Tracker",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "image": "../../images/employeetracker.png",
         "href": "https://github.com/wojeil/Employee_Tracker",
         "ptag": "Above, is a captured image of my Employee Tracker application. Click on the image to see all the details referencing this application."
     },
     {
         "id": 5,
         "name": "infODose",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "image": "../../images/infodose.png",
         "href": "https://github.com/wojeil/Project_2",
         "ptag": "Above, is a captured image of my infODose application. Click on the image to see all the details referencing this application."
     }
