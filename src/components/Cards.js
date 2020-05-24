@@ -7,7 +7,7 @@ function Cards(props) {
 
 
         <div className="card">
-            <a href={props.href} target="_blank" rel="noopener noreferrer"> <img
+            <a href={props.gitHref} target="_blank" rel="noopener noreferrer"> <img
                 src={props.image} className="card-img-top"
                 alt={props.name} /> </a>
             <div className="card-body">

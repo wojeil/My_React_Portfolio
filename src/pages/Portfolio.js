@@ -31,7 +31,7 @@ return(
                         key={card.id}
                         name= {card.name}
                         image= {card.image}
-                        href= {card.href}
+                        gitHref= {card.gitHref}
                         ptag= {card.ptag}
                         />
                     );
