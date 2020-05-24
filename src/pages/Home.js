@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeP.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Me from "../images/me.JPG"
 
 
 
@@ -29,7 +30,7 @@ function Home() {
                     {/* <!--col 1 contains image--> */}
                     <div className="col-sm-3">
 
-                        <img src="../../images/me.JPG" alt="My Pic" className="img-thumbnail" />
+                        <img src={Me} alt="My Pic" className="img-thumbnail" />
                     </div>
                     {/* <!--col 2 contains Text--> */}
                     <div className="col-sm-9">
