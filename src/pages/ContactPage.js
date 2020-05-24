@@ -15,7 +15,7 @@ function ContactPage() {
                 <div className="row">
                     {/* <!--column contains header--> */}
                     <div className="col-md-12">
-                        <h1> Contact </h1>
+                        <h1> Contact Me </h1>
                         <hr/>
                     </div>
                 </div>
@@ -23,23 +23,14 @@ function ContactPage() {
                     <div className="row">
                         {/* <!--column that contains form--> */}
                         <div className="col-md-12">
-                            <form id="fullForm">
-                                <div className="form-group">
-                                    <label for="exampleFormControlInput1">Name:</label>
-                                    <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="John Smith"/>
-                                </div>
-
-                                <div className="form-group">
-                                    <label for="exampleFormControlInput1">Email Address:</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-                                </div>
-
-                                <div className="form-group">
-                                    <label for="exampleFormControlTextarea1">Message:</label>
-                                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="..." rows="3"></textarea>
-                                </div>
-                                    <input className="btn " type="submit" value="Submit"/>
-                            </form>
+                            <div id="fullForm">
+                                <h3 className="atag">Name: Wadih Ojeil</h3>
+                                <h3 className="atag">Email: wadih.ojeil@gmail.com</h3>
+                                <h3 className="atag">Phone Number: +1(407)463-6548</h3>
+                                <h3 className="atag">GitHub:<a className="atag" href="https://github.com/wojeil" target="_blank" rel="noopener noreferrer"> https://github.com/wojeil</a></h3>
+                                <h3 className="atag">LinkedIn: <a className="atag" href="https://www.linkedin.com/in/wadih-ojeil/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/wadih-ojeil/</a> </h3>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>

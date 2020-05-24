@@ -21,11 +21,7 @@
   }
 
 
-  a {
-    font-size: 35px;
-    font-weight: bold;
-    color: black;
-  }
+ 
 
   a:hover {
     color: hotpink;

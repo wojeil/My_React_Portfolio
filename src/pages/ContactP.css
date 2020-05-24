@@ -26,9 +26,17 @@ footer {
 
 /* margins for contact page footer*/
 
-/* #fullForm {
+#fullForm {
+    
     margin-bottom: 10px;
-} */
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.atag {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold; 
+}
 
 .navbar {
     padding-bottom: 0px;
@@ -40,11 +48,7 @@ a:hover {
     color: hotpink;
   }
 
-a {
-    font-size: 35px;
-    font-weight: bold;
-    color: black;
-  }
+
 /* My name  */
 .name {
     font-weight: bolder;
