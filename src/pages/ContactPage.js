@@ -27,8 +27,8 @@ function ContactPage() {
                                 <h3 className="atag">Name: Wadih Ojeil</h3>
                                 <h3 className="atag">Email: wadih.ojeil@gmail.com</h3>
                                 <h3 className="atag">Phone Number: +1(407)463-6548</h3>
-                                <h3 className="atag">GitHub:<a className="atag" href="https://github.com/wojeil" target="_blank" rel="noopener noreferrer"> https://github.com/wojeil</a></h3>
-                                <h3 className="atag">LinkedIn: <a className="atag" href="https://www.linkedin.com/in/wadih-ojeil/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/wadih-ojeil/</a> </h3>
+                                <h3 className="atag">GitHub:<a className="atag" href="https://github.com/wojeil" target="_blank" rel="noopener noreferrer"> https://github.com/wojeil <i className="fab fa-github"></i></a></h3>
+                                <h3 className="atag">LinkedIn: <a className="atag" href="https://www.linkedin.com/in/wadih-ojeil/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/wadih-ojeil/ <i className="fab fa-linkedin"></i></a> </h3>
                                 
                             </div>
                         </div>
