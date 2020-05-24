@@ -33,5 +33,12 @@
         "image": "/image/infodose.png",
         "href": "https://github.com/wojeil/Project_2",
         "ptag": "Above, is a captured image of my infODose application. Click on the image to see all the details referencing this application."
+    },
+    {
+        "id": 6,
+        "name": "The HUB",
+        "image": "/image/hub.png",
+        "href": "https://github.com/wojeil/HUB",
+        "ptag": "Above, is a captured image of The HUB. Click on the image to see all the details referencing this application."
     }
 ]
