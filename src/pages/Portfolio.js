@@ -30,6 +30,7 @@ return(
                         <Cards
                         key={card.id}
                         name= {card.name}
+                        href={card.href}
                         image= {card.image}
                         gitHref= {card.gitHref}
                         ptag= {card.ptag}
