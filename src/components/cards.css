@@ -1,3 +1,9 @@
 .cardTitle {
     color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.card-title{
+    font-weight: bolder;
 }
