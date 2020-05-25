@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio-with-react/static/css/main.244b43ee.chunk.css",
-    "main.js": "/my-portfolio-with-react/static/js/main.f5c04a56.chunk.js",
-    "main.js.map": "/my-portfolio-with-react/static/js/main.f5c04a56.chunk.js.map",
+    "main.css": "/my-portfolio-with-react/static/css/main.cd3e154a.chunk.css",
+    "main.js": "/my-portfolio-with-react/static/js/main.6aac160a.chunk.js",
+    "main.js.map": "/my-portfolio-with-react/static/js/main.6aac160a.chunk.js.map",
     "runtime-main.js": "/my-portfolio-with-react/static/js/runtime-main.24ca1487.js",
     "runtime-main.js.map": "/my-portfolio-with-react/static/js/runtime-main.24ca1487.js.map",
-    "static/js/2.9c2a6ddb.chunk.js": "/my-portfolio-with-react/static/js/2.9c2a6ddb.chunk.js",
-    "static/js/2.9c2a6ddb.chunk.js.map": "/my-portfolio-with-react/static/js/2.9c2a6ddb.chunk.js.map",
+    "static/js/2.05f4ed10.chunk.js": "/my-portfolio-with-react/static/js/2.05f4ed10.chunk.js",
+    "static/js/2.05f4ed10.chunk.js.map": "/my-portfolio-with-react/static/js/2.05f4ed10.chunk.js.map",
     "index.html": "/my-portfolio-with-react/index.html",
-    "precache-manifest.41a4d80c2894fd422239f2fb9c03959b.js": "/my-portfolio-with-react/precache-manifest.41a4d80c2894fd422239f2fb9c03959b.js",
+    "precache-manifest.bf3abd0d575764c24fe8168d3c46e1f7.js": "/my-portfolio-with-react/precache-manifest.bf3abd0d575764c24fe8168d3c46e1f7.js",
     "service-worker.js": "/my-portfolio-with-react/service-worker.js",
-    "static/css/main.244b43ee.chunk.css.map": "/my-portfolio-with-react/static/css/main.244b43ee.chunk.css.map",
-    "static/js/2.9c2a6ddb.chunk.js.LICENSE.txt": "/my-portfolio-with-react/static/js/2.9c2a6ddb.chunk.js.LICENSE.txt"
+    "static/css/main.cd3e154a.chunk.css.map": "/my-portfolio-with-react/static/css/main.cd3e154a.chunk.css.map",
+    "static/js/2.05f4ed10.chunk.js.LICENSE.txt": "/my-portfolio-with-react/static/js/2.05f4ed10.chunk.js.LICENSE.txt",
+    "static/media/me.JPG": "/my-portfolio-with-react/static/media/me.b86424d9.JPG",
+    "static/media/Portfolio.css": "/my-portfolio-with-react/static/media/portImg.cefb5d80.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.24ca1487.js",
-    "static/js/2.9c2a6ddb.chunk.js",
-    "static/css/main.244b43ee.chunk.css",
-    "static/js/main.f5c04a56.chunk.js"
+    "static/js/2.05f4ed10.chunk.js",
+    "static/css/main.cd3e154a.chunk.css",
+    "static/js/main.6aac160a.chunk.js"
   ]
 }
