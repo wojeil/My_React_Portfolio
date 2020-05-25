@@ -13,11 +13,11 @@ function App() {
       
     <div>
       <Switch>
-        <Route  exact path="/" component={Home} />
+        <Route  exact path="/my-portfolio-with-react" component={Home} />
         <Route  path="/home" component={Home} />
         <Route   path="/contact" component={ContactPage} />
         <Route   path="/portfolio" component={Portfolio} />
-        {/* <Route component={NoMatch} /> */}
+        
       </Switch>
     </div>
   </Router>
@@ -27,3 +27,6 @@ function App() {
 }
 
 export default App;
+
+// eslint-disable-next-line no-lone-blocks
+{/* <Route component={NoMatch} /> */}
