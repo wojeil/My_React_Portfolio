@@ -1,4 +1,5 @@
 import React from "react";
+import "./cards.css"
 
 
 function Cards(props) {
@@ -11,7 +12,7 @@ function Cards(props) {
                 src={props.image} className="card-img-top"
                 alt={props.name} /> </a>
             <div className="card-body">
-                <a href={props.gitHref}> <h5 className="card-title">{props.name}</h5> </a>
+                <a className="cardTitle" href={props.gitHref} target="_blank" rel="noopener noreferrer" > <h5 className="card-title">{props.name}</h5> </a>
                 <p className="card-text">{props.ptag}</p>
             </div>
         </div>
