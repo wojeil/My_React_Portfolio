@@ -1,4 +1,5 @@
 import React from "react";
+import "./nav.css"
 
 function Nav() {
 
@@ -11,7 +12,7 @@ function Nav() {
         {/* <!--Nav Items have been linked--> */}
         <ul className="nav">
             <li className="nav-item">
-                <a className="nav-link" href="/">About</a>
+                <a  className="nav-link" href="/">About</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="/portfolio">Portfolio</a>
