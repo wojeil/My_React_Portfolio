@@ -1,24 +1,26 @@
 import React from "react";
 import "./nav.css"
+import { Link } from "react-router-dom";
+
 
 function Nav() {
 
     return (
 
-        <nav className="navbar navbar-light">
-        <span className="navbar-brand  h1 ">
-            <p className="name">WO</p>
-        </span>
+        <nav className="navbar">
+        <Link className="nav-link h1 name" to="/">
+            WO
+        </Link>
         {/* <!--Nav Items have been linked--> */}
         <ul className="nav">
             <li className="nav-item">
-                <a className="nav-link" href="/">About</a>
+                <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/portfolio">Portfolio</a>
+                <Link className="nav-link" to="/portfolio">Portfolio</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact</a>
+                <Link className="nav-link" to="/contact">Contact</Link>
             </li>
 
         </ul>

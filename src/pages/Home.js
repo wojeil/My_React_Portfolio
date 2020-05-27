@@ -2,7 +2,7 @@ import React from "react";
 import "./HomeP.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Me from "../images/me.JPG"
+
 
 
 

@@ -1,6 +1,6 @@
 .nav-link {
     font-family: 'Open Sans Condensed', sans-serif;
-  color: rgb(61, 61, 61);
+    color: rgb(61, 61, 61);
     font-size: 25px;
     font-weight: bold;
 
@@ -8,15 +8,10 @@
 
 .name {
     font-family: 'Open Sans Condensed', sans-serif;
-  color: rgb(61, 61, 61);
+    color: rgb(61, 61, 61);
     font-size: 35px;
     font-weight: bold;
   
-}
-
-nav {
-    
- 
 }
 
 .navbar {
