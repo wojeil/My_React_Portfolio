@@ -14,8 +14,7 @@ body{
 /* hr */
 
   hr {
-    border-radius: 20px;
-    height: 5px;
+    height: 2px;
     background-color:  rgba(0, 0, 0, 0.521);
   }
 
@@ -82,4 +81,27 @@ iframe {
   width: 330px; 
   height: 186px; 
   border: 0px;
+}
+
+/* images */
+
+.teamwork{
+width: 200px;
+height: 150px;
+margin-right: 20px;
+margin-left: 50px;
+margin-bottom: 30px;
+}
+
+.leader{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.time{
+  width: 200px;
+  height: 150px;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
