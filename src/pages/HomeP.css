@@ -1,10 +1,6 @@
 
 
-.homeBack {
-  background-image: url("https://media.freestocktextures.com/cache/02/5e/025e73bd208783d39147ad72a26b6cdd.jpg");
-  background-size: cover;
-}
-  
+
 /* image and all content media for responsive behaviour */
   @media only screen and (max-width:640px) {
       .container {
@@ -39,5 +35,40 @@
      filter: grayscale(75%);
 
   }
+/* first background */
+  .homeBack {
+    background: linear-gradient(-45deg, #19053f, #330517, #020202, #a16ae0);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+    
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
- 
+/* title name */
+
+.titlename {
+  text-align: center;
+  color: aquamarine;
+
+}
+
+.title {
+  text-align: center;
+  color: aquamarine;
+}
+
+.position {
+  padding-bottom: 300px;
+}
