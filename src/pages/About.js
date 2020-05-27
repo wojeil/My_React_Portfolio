@@ -24,6 +24,31 @@ function About () {
                     <div className="col-sm-3">
                     <iframe src="https://api.badgr.io/public/assertions/0hejCPvFSkutwVKsPV1PSQ?embedVersion=1&amp;embedWidth=330&amp;embedHeight=186&amp;identity__email=wadih.ojeil%40gmail.com" title="Badge: UCF Coding Boot Camp (Full-Stack Web Development)[Face to Face]"/>
                     </div>
+                    <div className="col-sm-3" >
+                        <div className="container">
+                        <img className="teamwork" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwCJuM5HipSTBnxcFZPnzSV5TDN7-7NTPXu3eKhQgl7-GEUPJ8&usqp=CAU" alt="teamwork" />
+                        <div className="overlay">TeamWork</div>
+                        </div>
+                    </div>
+
+                    <div className="col-sm-3" >
+                        <div className="container">
+                        <img className="leader" src="https://blog.smarp.com/hs-fs/hubfs/leadership-qualities.png?width=1486&name=leadership-qualities.png" alt="leadership" />
+                        <div className="overlay">LeaderShip</div>
+                        </div>
+                    </div>
+                    
+                    <div className="col-sm-3" >
+                        <div className="container">
+                    <img className="time" src="https://www.theladders.com/wp-content/uploads/time_190405-800x450.jpg" alt="time management"/> 
+                        <div className="overlay">Time Management</div>
+                        </div>
+                   
+
+
+           
+                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,7 +66,7 @@ function About () {
                     
                     
                   
-                            <img className="teamwork" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwCJuM5HipSTBnxcFZPnzSV5TDN7-7NTPXu3eKhQgl7-GEUPJ8&usqp=CAU" alt="teamwork" /> <img className="leader" src="https://blog.smarp.com/hs-fs/hubfs/leadership-qualities.png?width=1486&name=leadership-qualities.png" alt="leadership" /> <img className="time" src="https://www.theladders.com/wp-content/uploads/time_190405-800x450.jpg" alt="time management"/>
+                           
                  
 
              
