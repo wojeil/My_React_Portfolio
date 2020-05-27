@@ -6,17 +6,18 @@ function Nav() {
     return (
 
         <nav className="navbar navbar-light">
-       
-       
+        <span className="navbar-brand  h1 ">
+            <p className="name">WO</p>
+        </span>
         {/* <!--Nav Items have been linked--> */}
         <ul className="nav">
-            <li>
-                <a  className="nav-link" href="/">About</a>
+            <li className="nav-item">
+                <a className="nav-link" href="/">About</a>
             </li>
-            <li>
+            <li className="nav-item">
                 <a className="nav-link" href="/portfolio">Portfolio</a>
             </li>
-            <li>
+            <li className="nav-item">
                 <a className="nav-link" href="/contact">Contact</a>
             </li>
 

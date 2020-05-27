@@ -1,4 +1,7 @@
-
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(61, 61, 61);
+}
 
 
 /* image and all content media for responsive behaviour */
@@ -20,7 +23,7 @@
  
 
   a:hover {
-    color: hotpink;
+    color: rgb(200, 105, 255);
   }
 
 
@@ -40,7 +43,7 @@
     background: linear-gradient(-45deg, #19053f, #330517, #020202, #a16ae0);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 100vh;
+    height: 82vh;
   }
     
   
@@ -60,15 +63,23 @@
 
 .titlename {
   text-align: center;
-  color: aquamarine;
+  color: rgb(99, 99, 99);
+  font-size: 80px;
 
 }
 
 .title {
   text-align: center;
-  color: aquamarine;
+  color: rgb(99, 99, 99);
+  font-size: 60px;
 }
 
 .position {
   padding-bottom: 300px;
+}
+
+iframe {
+  width: 330px; 
+  height: 186px; 
+  border: 0px;
 }
