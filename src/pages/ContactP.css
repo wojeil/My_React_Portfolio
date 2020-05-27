@@ -4,19 +4,7 @@
     background-size: cover;
   }
 
-footer {
-   
-    border: 2px;
-    margin-top: 325px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 7px;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
-    
-    
-}
+
 /* image and all content media for responsive behaviour */
 @media only screen and (max-width:640px) {
     .container {
@@ -42,12 +30,7 @@ footer {
 
 }
 
-.navbar {
-    padding-bottom: 0px;
-    padding-top: 15px;
-    margin-bottom: 100px;
- 
-}
+
 a:hover {
     color: hotpink;
   }
