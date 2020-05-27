@@ -1,6 +1,6 @@
 body{
   font-family: 'Open Sans Condensed', sans-serif;
-  color: rgb(61, 61, 61);
+  color: rgb(129, 119, 119);
 }
 
 
@@ -62,47 +62,14 @@ body{
 
 .titlename {
   text-align: center;
-  color: rgb(99, 99, 99);
+  color: rgb(129, 119, 119);
   font-size: 80px;
 
 }
 
 .title {
   text-align: center;
-  color: rgb(99, 99, 99);
+  color: rgb(129, 119, 119);
   font-size: 60px;
   margin-bottom: 210px;
-}
-
-.position {
-  padding-bottom: 300px;
-}
-
-iframe {
-  width: 330px; 
-  height: 186px; 
-  border: 0px;
-}
-
-/* images */
-
-.teamwork{
-width: 200px;
-height: 150px;
-margin-right: 20px;
-margin-left: 50px;
-margin-bottom: 30px;
-}
-
-.leader{
-  width: 200px;
-  height: 150px;
-  margin-bottom: 30px;
-}
-
-.time{
-  width: 200px;
-  height: 150px;
-  margin-left: 50px;
-  margin-bottom: 30px;
 }
