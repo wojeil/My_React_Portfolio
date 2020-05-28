@@ -1,22 +1,27 @@
 import React from "react";
 import "./cards.css"
+import PropTypes from 'prop-types';
 
 
-function Cards(props) {
-
+function Cards({property}) {
+ const {name, image, gitHref, href, ptag} = property
     return (
 
 
         <div className="card">
-            <a href={props.href} target="_blank" rel="noopener noreferrer"> <img
-                src={props.image} className="card-img-top"
-                alt={props.name} /> </a>
+            <a href={href} target="_blank" rel="noopener noreferrer"> <img
+                src={image} className="card-img-top"
+                alt={name} /> </a>
             <div className="card-body">
-                <a className="cardTitle" href={props.gitHref} target="_blank" rel="noopener noreferrer" > <h5 className="card-title">{props.name}</h5> </a>
-                <p className="card-text">{props.ptag}</p>
+                <a className="cardTitle" href={gitHref} target="_blank" rel="noopener noreferrer" > <h5 className="card-title">{name}</h5> </a>
+                <p className="card-text">{ptag}</p>
             </div>
         </div>
     );
+}
+
+Cards.propTypes = {
+    property: PropTypes.object.isRequired
 }
 
 export default Cards
