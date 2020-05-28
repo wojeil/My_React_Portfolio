@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Covid Updates",
-        "image": "/image/covid.png",
+        "image": "image/covid.png",
         "gitHref": "https://github.com/wojeil/COVID-Updates",
         "href":"https://wojeil.github.io/COVID-Updates/",
         "ptag": "Above, is a captured image of my COVID-Updates application. Click on the image to see all the details referencing this application."

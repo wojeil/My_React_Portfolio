@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import Me from "../images/me.JPG";
 import "./About.css"
 import Badge from "../images/badge.jpg";
-import {Link} from "react-router-dom";
 
 
 function About() {
@@ -72,13 +71,6 @@ function About() {
 
                     </div>
                 </div>
-
-
-
-
-
-
-
 
                 <Footer />
 
