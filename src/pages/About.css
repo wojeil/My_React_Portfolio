@@ -1,18 +1,21 @@
 * {box-sizing: border-box}
 
+#container{
+    background-image: url(https://wallpaperplay.com/walls/full/e/4/6/329964.jpg);
+
+
+}
+
 .aboutBack {
     background: linear-gradient(-45deg, #19053f, #330517, #020202, #a16ae0);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 30vh;
-    padding-top: 170px;
+    height: 43vh;
+    padding-top: 180px;
     margin-bottom: 40px;
 }
 
-.position {
-    padding-bottom: 300px;
-  }
-  
+
   iframe {
     width: 330px; 
     height: 186px; 
@@ -48,20 +51,48 @@
   .teamwork{
     width: 200px;
     height: 150px;
-
-
   }
   
   .leader{
     width: 200px;
     height: 150px;
-
-   
   }
   
   .time{
     width: 200px;
     height: 150px;
-
-
   }
+
+
+#imageMe{
+
+    width:300px;
+    height: auto;
+
+}
+
+/* image and all content media for responsive behaviour */
+@media only screen and (max-width:640px) {
+    .container {
+        size: 71%;
+      }
+}
+
+/* card  */
+
+#aboutText {
+    font-weight: bolder;
+    font-size: large;
+    text-indent: 3px;
+  }
+
+#aboutCard {
+border: gray ;
+background: rgba(255, 255, 255, 0.26);
+}
+
+#side{
+    border-right: hotpink, 5px, solid;
+    background: hotpink;
+    
+}

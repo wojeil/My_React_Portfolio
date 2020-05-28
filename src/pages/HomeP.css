@@ -24,11 +24,6 @@ body{
   a:hover {
     color: rgb(200, 105, 255);
   }
-
-
-  .about-text {
-    font-weight: bold;
-  }
  
 
   .img-thumbnail {
@@ -44,7 +39,11 @@ body{
     animation: gradient 15s ease infinite;
     height: 100vh;
   }
-    
+  
+  .position {
+    padding-bottom: 300px;
+  }
+  
   
   @keyframes gradient {
     0% {
