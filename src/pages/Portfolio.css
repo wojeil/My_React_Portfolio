@@ -8,29 +8,8 @@
   margin-bottom: 40px;
   }
 
-img.card-img-top {
-    width: 100%;
-    border-radius: 20px;
-    border-color: black;
-    filter: grayscale(75%);
-  }
-  
-  .card {
-    
-    margin-bottom: 20px;
-    border-radius: 20px;
-    border-width: 2px;
-    border-color: rgba(0, 0, 0, 0.671);
-    background-color: rgba(245, 237, 237, 0.582);
-    font-weight: bold;
-    /* width: 18rem; */
-  }
 
-  .card.about-card{
-    border-radius: 15px;
-    border-width: 3px;
-    border-color: rgba(0, 0, 0, 0.822);
-    background-color: rgba(245, 237, 237, 0.582);
-  }
+
+
 
 

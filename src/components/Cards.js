@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 
 function Cards({property}) {
- const {name, image, gitHref, href, ptag} = property
+ const {name, image, gitHref, href, ptag, index} = property
     return (
 
 
-        <div className="card">
+        <div id={`card-${index}`} className="card">
             <a href={href} target="_blank" rel="noopener noreferrer"> <img
                 src={image} className="card-img-top"
                 alt={name} /> </a>

@@ -2,7 +2,7 @@
   "name": "my-portfolio-with-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wojeil.github.io/my-portfolio-with-react",
+
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
