@@ -1,6 +1,7 @@
 /* Card */
 body{
     overflow-x: hidden;
+  
 }
 
 .cardsSliderWrapper {
@@ -25,21 +26,19 @@ body{
   }
 
   $i: 0;
-  @for $i from 0 through 29 {
+  @for $i from 0 through 5 {
       .cardsSlider.active-slide-#{$i} #card-#{$i} {
         opacity: 1;
         transform: scale(1);
         background-color: #f3f3f3;
         border-color: #f3f3f3;
-        .details {
-          opacity: 1;
-        }
+        
       }
   }
   
 
   .col {
-    height: 264px;
+    height: 300px;
     position: relative;
     &:before,
     &:after {
@@ -79,3 +78,5 @@ body{
       left: 0;
     }
   }
+
+  

@@ -32,55 +32,52 @@ class Portfolio extends Component {
     }
 
     render() {
-        const {properties, property } = this.state;
+        const { properties, property } = this.state;
 
         return (
             <>
                 <div className="portfolioBack">
                     <Nav />
                 </div>
-                <div className="container-fluid">
-                    {/* <!--Row 1 has 1 col--> */}
-        
-          
-                           
-                                <button
-                                    onClick={() => this.nextProp()}
-                                    disabled={property.index === cards.properties.length - 1}
-                                >Next</button>
 
-                                <button
-                                    onClick={() => this.prevProp()}
-                                    disabled={property.index === 0}
-                                >Prev</button>
 
-                                <div className="cardpage">
-                                    <section>
-                                    <h1 id="portfolio"> Portfolio </h1>
-                            <hr />
-                                    </section>
-                                    <div className="col">
-                                    <div className={`cardsSlider active-slide-${property.index}`}>
-                                        <div className="cardsSliderWrapper" style={{
-                                            "transform": `translateX(-${property.index*(100/properties.length)}%)`
-                                        }}>
-                                            {
-                                                properties.map(property =>  <Cards key={property.id} property={property} />)
-                                            }
-                                          
-                                        </div>
-                                    </div>
-                                    </div>
-                                    
-               
-                                </div>
-                                <Footer />
 
-                           
+                <div className="cardpage">
+                    <section>
+                        <h1 id="portfolio"> Portfolio </h1>
+                       
+                        <hr />
+                        <button className="butn"
+                            onClick={() => this.nextProp()}
+                            disabled={property.index === cards.properties.length - 1}
+                        >Next</button>
+
+                        <button className="butn"
+                            onClick={() => this.prevProp()}
+                            disabled={property.index === 0}
+                        >Prev</button>
+                    </section>
+                    <div className="col">
+                        <div className={`cardsSlider active-slide-${property.index}`}>
+                            <div className="cardsSliderWrapper" style={{
+                                "transform": `translateX(-${property.index * (100 / properties.length)}%)`
+                            }}>
+                                {
+                                    properties.map(property => <Cards key={property.id} property={property} />)
+                                }
+
+                            </div>
                         </div>
-                 
-                   
-        
+                    </div>
+
+
+                </div>
+                <Footer />
+
+
+
+
+
 
             </>
         )

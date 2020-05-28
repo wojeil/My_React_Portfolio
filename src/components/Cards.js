@@ -13,7 +13,8 @@ function Cards({property}) {
                 src={image} className="card-img-top"
                 alt={name} /> </a>
             <div className="card-body">
-                <a className="cardTitle" href={gitHref} target="_blank" rel="noopener noreferrer" > <h5 className="card-title">{name}</h5> </a>
+                <a className="cardTitle" href={gitHref} target="_blank" rel="noopener noreferrer" > 
+                <h5 className="card-title">{name}</h5> </a>
                 <p className="card-text">{ptag}</p>
             </div>
         </div>
