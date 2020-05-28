@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Me from "../images/me.JPG";
 import "./About.css"
 import Badge from "../images/badge.jpg";
+import {Link} from "react-router-dom";
 
 
 function About() {
@@ -20,7 +21,7 @@ function About() {
                     <div className="col-sm-3 col-border" >
                         <div className="row">
                             <div className="col-sm-12">
-                                <div id="side"> <img id="badge" src={Badge} alt="UCF CODING BOOTCAMP Badge"/></div>
+                                <div id="side"> <a href="https://badgr.com/backpack/badges" target="_blank" rel="noopener noreferrer"><img id="badge" src={Badge} alt="UCF CODING BOOTCAMP Badge"/></a></div>
                             </div>
                         </div>
 
