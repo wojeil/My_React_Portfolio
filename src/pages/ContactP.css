@@ -32,7 +32,7 @@
 
 
 a:hover {
-    color: hotpink;
+    color: rgb(200, 105, 255); 
   }
 
 
@@ -45,9 +45,9 @@ hr {
 
 .btn {
     background-color: rgba(0, 0, 0, 0.555);
-    color: blanchedalmond;
+  
 }
 
 .btn:hover{
-    background-color: hotpink;
+    background-color: rgb(200, 105, 255); 
 }

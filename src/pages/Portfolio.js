@@ -47,15 +47,15 @@ class Portfolio extends Component {
                         <h1 id="portfolio"> Portfolio </h1>
                        
                         <hr />
-                        <button className="butn"
+                        <button className="butn btn"
                             onClick={() => this.nextProp()}
                             disabled={property.index === cards.properties.length - 1}
-                        >Next</button>
+                        > <span className="opacity"><i class="fas fa-chevron-left"></i></span> </button>
 
-                        <button className="butn"
+                        <button className="butn btn"
                             onClick={() => this.prevProp()}
                             disabled={property.index === 0}
-                        >Prev</button>
+                        ><span className="opacity"><i class="fas fa-chevron-right"></i></span></button>
                     </section>
                     <div className="col">
                         <div className={`cardsSlider active-slide-${property.index}`}>
