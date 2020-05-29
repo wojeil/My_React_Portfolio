@@ -57,7 +57,7 @@ class Portfolio extends Component {
                             disabled={property.index === 0}
                         >Prev</button>
                     </section>
-                 
+                    <div className="col">
                         <div className={`cardsSlider active-slide-${property.index}`}>
                             <div className="cardsSliderWrapper" style={{
                                 "transform": `translateX(-${property.index * (100 / properties.length)}%)`
@@ -68,11 +68,11 @@ class Portfolio extends Component {
 
                             </div>
                         </div>
-                 
+                    </div>
 
-
+                    <Footer />
                 </div>
-                <Footer />
+               
 
 
 
