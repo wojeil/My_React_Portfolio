@@ -18,14 +18,14 @@ class Portfolio extends Component {
     }
 
     nextProp = () => {
-        const newIndex = this.state.property.index + 1;
+        const newIndex = this.state.property.index - 1;
         this.setState({
             property: cards.properties[newIndex]
         })
     }
 
     prevProp = () => {
-        const newIndex = this.state.property.index - 1;
+        const newIndex = this.state.property.index + 1;
         this.setState({
             property: cards.properties[newIndex]
         })
@@ -49,12 +49,12 @@ class Portfolio extends Component {
                         <hr />
                         <button className="butn btn"
                             onClick={() => this.nextProp()}
-                            disabled={property.index === cards.properties.length - 1}
+                            disabled={property.index === 0}
                         > <span className="opacity"><i class="fas fa-chevron-left"></i></span> </button>
 
                         <button className="butn btn"
                             onClick={() => this.prevProp()}
-                            disabled={property.index === 0}
+                            disabled={property.index === cards.properties.length - 1}
                         ><span className="opacity"><i class="fas fa-chevron-right"></i></span></button>
                     </section>
                     <div className="col">
