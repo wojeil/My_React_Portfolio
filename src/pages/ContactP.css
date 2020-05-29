@@ -1,7 +1,11 @@
 
 .contactBack {
-    background-image: url("https://media.freestocktextures.com/cache/6c/34/6c34f470d0be0be75ee4c832ac7df425.jpg");
-    background-size: cover;
+  background: linear-gradient(-45deg, #19053f, #330517, #020202, #a16ae0);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 43vh;
+  padding-top: 200px;
+  margin-bottom: 40px;
   }
 
 

@@ -6,8 +6,10 @@ import './ContactP.css';
 function ContactPage() {
 
     return (
+        <>
         <div className="contactBack">
             <Nav/>
+        </div>
             
 
             <div className="container" >
@@ -35,7 +37,7 @@ function ContactPage() {
                     </div>
                 </div>
                             <Footer/>
-        </div>
+        </>
     );
 
 }
