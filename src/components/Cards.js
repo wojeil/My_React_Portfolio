@@ -9,13 +9,14 @@ function Cards({property}) {
 
 
         <div id={`card-${index}`} className="card">
-            <a href={href} target="_blank" rel="noopener noreferrer"> <img
+            <img
                 src={image} className="card-img-top"
-                alt={name} /> </a>
+                alt={name} /> 
             <div className="card-body">
-                <a className="cardTitle" href={gitHref} target="_blank" rel="noopener noreferrer" > 
-                <h5 className="card-title">{name}</h5> </a>
+                <h5 className="card-title cardTitle">{name}</h5>
                 <p className="card-text">{ptag}</p>
+                <button className="btn butnCard"  > <a className="atagCard"  href={gitHref} target="_blank" rel="noopener noreferrer" > GitHub Repo </a> </button>
+                <button className="btn butnCard"> <a  className="atagCard"  href={href} target="_blank" rel="noopener noreferrer">Live Demo</a></button>
             </div>
         </div>
     );

@@ -9,3 +9,18 @@
     font-weight: bolder;
 }
 
+
+.atagCard{
+    color: rgb(61, 61, 61);
+    text-decoration:none
+}
+
+.atagCard:hover{
+    color: rgb(61, 61, 61) !important;
+    text-decoration:none
+    
+}
+
+.butnCard:hover{
+    background-color: rgb(200, 105, 255); 
+}

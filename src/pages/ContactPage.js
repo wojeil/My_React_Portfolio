@@ -59,7 +59,7 @@ function ContactPage() {
                         </div>
                         <div className="row">
                             <div className="col-sm">
-                                <p>(Click on image below to view copy of pdf)</p>
+                                <p>(Click on the image below to view in pdf )</p>
                             <a href={MyResume} target="_blank" rel="noopener noreferrer"> <img className="resume" src="https://careertuners.com/blog/wp-content/uploads/2019/02/one.jpg" alt="resume"/> </a>
                             </div>
                         </div>

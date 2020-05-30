@@ -23,3 +23,8 @@
   margin-left: 600px;
   background: rgba(255, 255, 255, 0)
 }
+
+
+ .butn:hover{
+    background-color: rgb(200, 105, 255); 
+} 
