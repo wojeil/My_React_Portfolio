@@ -14,10 +14,10 @@ function App() {
       
     <div>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route path="/contact" component={ContactPage} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route exact path="/my-portfolio-with-react" component={Home} />
+        <Route exact path="/my-portfolio-with-react/about" component={About} />
+        <Route path="/my-portfolio-with-react/contact" component={ContactPage} />
+        <Route path="/my-portfolio-with-react/portfolio" component={Portfolio} />
         
       </Switch>
     </div>

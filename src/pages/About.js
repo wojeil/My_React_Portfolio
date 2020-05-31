@@ -31,7 +31,7 @@ function About() {
 
                             <div className="col-sm-4" >
                                 <div className="container">
-                                    <img className="teamwork" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwCJuM5HipSTBnxcFZPnzSV5TDN7-7NTPXu3eKhQgl7-GEUPJ8&usqp=CAU" alt="teamwork" />
+                                    <img className="teamwork" src="https://blog.vantagecircle.com/content/images/2019/05/teamwork-and-team-building.png" alt="teamwork" />
                                     <div className="overlay">TeamWork</div>
                                 </div>
                             </div>

@@ -51,16 +51,19 @@
   .teamwork{
     width: 200px;
     height: 150px;
+    border-radius: 5px;
   }
   
   .leader{
     width: 200px;
     height: 150px;
+    border-radius: 5px;
   }
   
   .time{
     width: 200px;
     height: 150px;
+    border-radius: 5px;
   }
 
 #main{
