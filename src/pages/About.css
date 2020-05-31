@@ -10,8 +10,8 @@
     background: linear-gradient(-45deg, #19053f, #330517, #020202, #a16ae0);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 43vh;
-    padding-top: 200px;
+    height: 33vh;
+    padding-top: 170px;
     margin-bottom: 40px;
 }
 
