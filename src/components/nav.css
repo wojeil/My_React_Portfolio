@@ -1,17 +1,33 @@
 .nav-link {
-    color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(129, 119, 119);
     font-size: 25px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+
 }
 
 .name {
-    color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(129, 119, 119);
     font-size: 35px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
-nav {
-    background-color: rgba(245, 245, 245, 0.336);
+.navbar {
+    padding-bottom: 0px;
+    padding-top: 15px;
+    
+ 
 }
+
+span#nav:hover{
+    border-left: 2px solid gray;
+    padding-left: 5px;
+    border-right: 2px solid gray;
+    padding-right: 5px;
+    color: rgb(200, 105, 255);
+    font-weight: bolder;
+    
+  }

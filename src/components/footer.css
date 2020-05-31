@@ -1,10 +1,18 @@
 .foots{
     font-size: 35px;
     font-weight: bold;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(129, 119, 119);
+  
   }
-
-  p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+  footer {
+   
+    border: 2px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}

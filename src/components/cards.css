@@ -1,9 +1,26 @@
 .cardTitle {
-    color: rgb(0, 0, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(61, 61, 61);
+    
  
 }
 
 .card-title{
     font-weight: bolder;
+}
+
+
+.atagCard{
+    color: rgb(61, 61, 61);
+    text-decoration:none
+}
+
+.atagCard:hover{
+    color: rgb(61, 61, 61) !important;
+    text-decoration:none
+    
+}
+
+.butnCard:hover{
+    background-color: rgb(200, 105, 255); 
 }

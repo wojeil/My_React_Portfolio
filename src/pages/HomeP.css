@@ -1,10 +1,9 @@
-
-
-.homeBack {
-  background-image: url("https://media.freestocktextures.com/cache/02/5e/025e73bd208783d39147ad72a26b6cdd.jpg");
-  background-size: cover;
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(129, 119, 119);
 }
-  
+
+
 /* image and all content media for responsive behaviour */
   @media only screen and (max-width:640px) {
       .container {
@@ -15,8 +14,7 @@
 /* hr */
 
   hr {
-    border-radius: 20px;
-    height: 5px;
+    height: 2px;
     background-color:  rgba(0, 0, 0, 0.521);
   }
 
@@ -24,12 +22,8 @@
  
 
   a:hover {
-    color: hotpink;
-  }
-
-
-  .about-text {
-    font-weight: bold;
+    color: rgb(200, 105, 255);
+    text-decoration:none
   }
  
 
@@ -39,5 +33,43 @@
      filter: grayscale(75%);
 
   }
+/* first background */
+  .homeBack {
+    background: linear-gradient(-45deg, #19053f, #330517, #020202, #a16ae0);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  .position {
+    padding-bottom: 180px;
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
- 
+/* title name */
+
+.titlename {
+  text-align: center;
+  color: rgb(129, 119, 119);
+  font-size: 80px;
+
+}
+
+.title {
+  text-align: center;
+  color: rgb(129, 119, 119);
+  font-size: 60px;
+  margin-bottom: 210px;
+}

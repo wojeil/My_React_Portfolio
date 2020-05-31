@@ -1,6 +1,9 @@
-[
+const cards ={
+
+"properties": [
     {
         "id": 1,
+        "index": 0,
         "name": "My Daily Weather App",
         "image": "/image/weatherapp.png",
         "gitHref": "https://github.com/wojeil/Server-Side-APIs",
@@ -9,14 +12,16 @@
     },
     {
         "id": 2,
+        "index": 1,
         "name": "Covid Updates",
-        "image": "/image/covid.png",
+        "image": "image/covid.png",
         "gitHref": "https://github.com/wojeil/COVID-Updates",
         "href":"https://wojeil.github.io/COVID-Updates/",
         "ptag": "Above, is a captured image of my COVID-Updates application. Click on the image to see all the details referencing this application."
     },
     {
         "id": 3,
+        "index": 2,
         "name": "Work Day Scheduler",
         "image": "/image/workday.png",
         "gitHref": "https://github.com/wojeil/Third_Party_APIs",
@@ -25,6 +30,7 @@
     },
     {
         "id": 4,
+        "index": 3,
         "name": "Employee Tracker",
         "image": "/image/employeetracker.png",
         "gitHref": "https://github.com/wojeil/Employee_Tracker",
@@ -33,6 +39,7 @@
     },
     {
         "id": 5,
+        "index": 4,
         "name": "infODose",
         "image": "/image/infodose.png",
         "gitHref": "https://github.com/wojeil/Project_2",
@@ -41,6 +48,7 @@
     },
     {
         "id": 6,
+        "index": 5,
         "name": "The HUB",
         "image": "/image/hub.png",
         "gitHref": "https://github.com/wojeil/HUB",
@@ -48,3 +56,8 @@
         "ptag": "Above, is a captured image of The HUB. Click on the image to see all the details referencing this application."
     }
 ]
+
+
+}
+
+export default cards;
