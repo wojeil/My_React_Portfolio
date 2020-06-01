@@ -47,7 +47,8 @@ hr {
 /* //contact image */
 .rightside{
   border-right:  rgb(200, 105, 255) 3px solid; 
- 
+  margin-left: 5%;
+  width: 75%;
 }
 
 .resume{
