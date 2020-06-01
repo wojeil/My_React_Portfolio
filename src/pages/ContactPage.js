@@ -34,7 +34,7 @@ function ContactPage() {
                             <div className="col-sm-4">
                                
                             </div>
-                            <div className="col-sm-4">
+                            <div className="col-sm-5">
                             <div id="fullForm">
                                     <div id="top"></div>
                                     <div className="wrapper"><br/>
@@ -46,7 +46,7 @@ function ContactPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="sol-sm-4">
+                            <div className="sol-sm-3">
                             <img className="rightside" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuVntuz1NcJ5fSAFKILLO_JO9QkUc2Ea1THTsHrezsnD9TOSMh&usqp=CAU" alt="contact me" />
                             </div>
                         </div>
