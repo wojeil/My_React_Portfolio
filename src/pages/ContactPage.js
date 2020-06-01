@@ -53,13 +53,13 @@ function ContactPage() {
                     </div>
                     <div className="col-sm-2">
                         <div className="row">
-                            <div className="col-sm">
+                            <div className="col-sm-12">
                             <h3>Check Out My Resume</h3>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-sm">
-                                <p>(Click on the image below to view in pdf )</p>
+                            <div className="col-sm-12">
+                                <p className="clickMe">(Click on the image below to view in pdf )</p>
                             <a href={MyResume} target="_blank" rel="noopener noreferrer"> <img className="resume" src="https://careertuners.com/blog/wp-content/uploads/2019/02/one.jpg" alt="resume"/> </a>
                             </div>
                         </div>

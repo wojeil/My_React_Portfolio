@@ -60,3 +60,7 @@ hr {
 img.resume:hover{
   border:  rgb(200, 105, 255) 3px solid; 
 }
+
+.clickMe {
+  width: 500%;
+}
