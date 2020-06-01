@@ -42,7 +42,7 @@ body{
   }
   
   .position {
-    padding-bottom: 180px;
+    padding-bottom: 8%;
   }
   
   
@@ -71,5 +71,5 @@ body{
   text-align: center;
   color: rgb(129, 119, 119);
   font-size: 60px;
-  margin-bottom: 210px;
+  margin-bottom: 10%;
 }

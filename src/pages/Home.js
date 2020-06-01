@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 function Home() {
     return (
         <>
-            <div className="homeBack">
+            <div className="container-fluid homeBack">
                 <div className="position"> </div>
                 <h1 className="titlename">Wadih Ojeil</h1>
                 <h2 className="title">Full-Stack Web Developer</h2>

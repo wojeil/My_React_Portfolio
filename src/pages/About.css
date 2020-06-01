@@ -11,8 +11,8 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 33vh;
-    padding-top: 170px;
-    margin-bottom: 40px;
+    padding-top: 5%;
+    margin-bottom: 3%;
 }
 
 
@@ -67,7 +67,7 @@
   }
 
 #main{
-  margin-top: 30px;
+  margin-top: 3%;
 }
 
 #imageMe{
@@ -102,5 +102,5 @@ background: rgba(255, 255, 255, 0.26);
 }
 
 #badge {
-    margin-left: 70px;
+    margin-left: 15%;
 }

@@ -4,8 +4,8 @@
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 33vh;
-  padding-top: 170px;
-  margin-bottom: 40px;
+  padding-top: 5%;
+  margin-bottom: 3%;
   }
 
 
@@ -16,11 +16,11 @@
 }
 
 #portfolio {
-  margin-left: 100px;
+  margin-left:5%
 }
 
 .butn {
-  margin-left: 600px;
+  margin-left: 34%;
   background: rgba(255, 255, 255, 0)
 }
 
