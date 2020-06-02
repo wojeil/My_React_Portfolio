@@ -8,7 +8,7 @@
   }
 
 #contactbackground{
-  background-image: url(https://wallpaperplay.com/walls/full/a/f/a/329989.jpg);
+  background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-24.jpg);
   background-size:cover;
 }
 
@@ -47,7 +47,8 @@ hr {
 /* //contact image */
 .rightside{
   border-right:  rgb(200, 105, 255) 3px solid; 
-  margin-left: 5%;
+  margin-left: 35%;
+  margin-top: 30%;
   width: 75%;
 }
 
@@ -62,5 +63,6 @@ img.resume:hover{
 }
 
 .clickMe {
-  width: 500%;
+  width: 200%;
+  color: #4c059c;
 }

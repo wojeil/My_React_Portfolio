@@ -25,6 +25,7 @@ function ContactPage() {
                 <div className="row">
                     <div className="col-sm-2"> 
                     <div className="leftside">
+                    <img className="rightside" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuVntuz1NcJ5fSAFKILLO_JO9QkUc2Ea1THTsHrezsnD9TOSMh&usqp=CAU" alt="contact me" />
                         </div> 
                     </div>
                     <div className="col-sm-8">
@@ -47,14 +48,14 @@ function ContactPage() {
                                 </div>
                             </div>
                             <div className="col-sm-3">
-                            <img className="rightside" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuVntuz1NcJ5fSAFKILLO_JO9QkUc2Ea1THTsHrezsnD9TOSMh&usqp=CAU" alt="contact me" />
+                            
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-2">
                         <div className="row">
                             <div className="col-sm-12">
-                            <h3>Check Out My Resume</h3>
+                            <h3 className="clickMe">Check Out My Resume</h3>
                             </div>
                         </div>
                         <div className="row">
