@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import './ContactP.css';
-import MyResume from "../images/My_Resume_2020.pdf"
+import MyResume from "../images/Coding_Resume.pdf"
 
 function ContactPage() {
 
