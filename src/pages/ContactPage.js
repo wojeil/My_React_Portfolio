@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import './ContactP.css';
-import MyResume from "../images/Wadih_Ojeil_Resume_Latest.pdf"
+import MyResume from "../images/Wadih_Ojeil _Resume_Latest.pdf"
 
 function ContactPage() {
 
