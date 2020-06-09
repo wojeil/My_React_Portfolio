@@ -20,7 +20,7 @@ function About() {
                     <div className="col-sm-3 col-border" >
                         <div className="row">
                             <div className="col-sm-12">
-                                <div id="side"> <a href="https://badgr.com/backpack/badges" target="_blank" rel="noopener noreferrer"><img id="badge" src={Badge} alt="UCF CODING BOOTCAMP Badge"/></a></div>
+                                <div id="side"> <a href="https://badgr.com/public/assertions/0hejCPvFSkutwVKsPV1PSQ" target="_blank" rel="noopener noreferrer"><img id="badge" src={Badge} alt="UCF CODING BOOTCAMP Badge"/></a></div>
                             </div>
                         </div>
 
