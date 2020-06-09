@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75f3ea80ae309c35609b126c04c7215c",
+    "revision": "1a95759cbd734ab2ab516cd2d8a5baeb",
     "url": "/my-portfolio-with-react/index.html"
   },
   {
-    "revision": "4064294573417439762e",
+    "revision": "c5d1f2e8f2a189dcd04f",
     "url": "/my-portfolio-with-react/static/css/main.ce5a3766.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio-with-react/static/js/2.1a72c0e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4064294573417439762e",
-    "url": "/my-portfolio-with-react/static/js/main.4147e3cf.chunk.js"
+    "revision": "c5d1f2e8f2a189dcd04f",
+    "url": "/my-portfolio-with-react/static/js/main.6d811d55.chunk.js"
   },
   {
     "revision": "79aa0ad58bce18b51cff",
     "url": "/my-portfolio-with-react/static/js/runtime-main.24ca1487.js"
   },
   {
-    "revision": "da3b735c6e42d24387b5e4ac8a885be2",
-    "url": "/my-portfolio-with-react/static/media/Wadih_Ojeil_Resume_Latest.da3b735c.pdf"
+    "revision": "f577b3855cfcb70ce90696e22ed20bb9",
+    "url": "/my-portfolio-with-react/static/media/Wadih_Ojeil _Resume_Latest.f577b385.pdf"
   },
   {
     "revision": "6601dd2edd39702a4e30d850193429ad",
